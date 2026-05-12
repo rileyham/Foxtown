@@ -1,5 +1,23 @@
+@font-face {
+    font-family: pixelary;
+    src: url("fonts/Pixelary.otf");
+}
+
 h1 {
     text-align: center;
     color: #333;
-    font-family: 'courier new', courier, monospace;
+    font-size: 72px;
+    border: 5px double #333;
+    display: inline-block;
+    padding: 20px;
+    font-family: 'pixelary', 'courier new', courier, monospace;
+}
+
+#title-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url("images/42vom.jpg");
+    background-size: cover;
 }
