@@ -5,7 +5,7 @@
 
 h1 {
     text-align: center;
-    color: #333;
+    color: #333333;
     font-size: 72px;
     border: 5px double #333;
     display: inline-block;
@@ -13,11 +13,31 @@ h1 {
     font-family: 'pixelary', 'courier new', courier, monospace;
 }
 
+#title-container a:hover h1{
+    color: #fffbc4;
+    transition: all 0.3s ease;
+    border: 5px double #fffbc4;
+}
 #title-container {
+    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-image: url("images/42vom.jpg");
-    background-size: cover;
+    overflow: hidden;
+    background: #000;
+}
+#title-container .bg-video {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 0;
+}
+
+#title-container a,
+#title-container h1 {
+  position: relative;
+  z-index: 1;
 }
