@@ -1,0 +1,39 @@
+@font-face {
+    font-family: pixelary;
+    src: url("fonts/Pixelary.otf");
+}
+body {
+	background-image: url("images/wallBlur.jpg");
+	background-repeat: repeat;
+	background-size: cover;
+}
+
+h1 {
+	font-family: 'pixelary', 'courier new', courier, monospace;
+	text-align: center;
+	font-size: 84px;
+	color: #fffbc4;
+	border: 5px double #fffbc4;
+	margin: 30px;
+	display: inline-block;
+	padding: 20px;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover h1{
+	color: #333;
+	border: 5px double #333;
+	transition: all 0.3s ease;
+}
+
+#title-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+}

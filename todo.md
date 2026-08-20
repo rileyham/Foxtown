@@ -1,18 +1,28 @@
 # Foxtown Site
 
 ## Contents
-- [ ] Home Page
+- [x] Home Page
 - [ ] Demo Backlog
 - [ ] Photo Backlog
 - [ ] Foxtowniverse
 - [ ] Upcoming Gigs (prolly on the home page)
 
 ### Home Page
+Banner
+	- [x] Home
+	- [ ] Album
+	- [ ] Archive (demos)
+	- [ ] Gigs
+	- [x] Contact
+	- [x] Links
 
-### Demo Backlog
+Band Photo
+About us
 
-### Photo Backlog
+### Demo Archive
+ 
+### The Album
 
 ### Foxtowniverse
 
-### Upcoming Gigs
+### Gig Archive
